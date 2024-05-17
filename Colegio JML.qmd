@@ -1,0 +1,108 @@
+---
+title: "Explora UTadeo"  
+css: 'custom.css'
+subtitle: "El juego de simulación de la cerveza"
+footer: "El juego de simulación de la cerveza"
+code-annotations: hover
+format: 
+  revealjs:
+    scrollable: true
+    theme: custom.scss
+    transition: slide
+    chalkboard: true
+    preview-links: auto
+    background-transition: fade
+    menu:
+      side: left
+      width: third
+
+execute:
+  echo: false
+jupyter: python3
+---
+
+
+## Origen del Juego
+
+Este juego se desarrolló en MIT Sloan para estudiar la gestión de la cadena de suministro.
+
+------------------------------------------------------------------------
+
+## Roles en la Cadena de Suministro
+
+Cada participante tomará un rol en la cadena de suministro:
+
+-   Fabricante
+-   Mayorista
+-   Distribuidor
+-   Minorista
+
+------------------------------------------------------------------------
+
+## Duración del Juego
+
+El juego se ejecutará durante 12 semanas (3 meses).
+
+------------------------------------------------------------------------
+
+## Toma de Decisiones
+
+En cada semana, los participantes tomarán decisiones sobre los pedidos y la producción.
+
+------------------------------------------------------------------------
+
+## Efecto Látigo
+
+Se estudiará el efecto látigo, donde una pequeña variación en la demanda del consumidor provoca amplias fluctuaciones en los niveles de inventario y pedidos a lo largo de toda la cadena.
+
+------------------------------------------------------------------------
+
+## Importancia de la Coordinación
+
+Esto resalta la importancia de la coordinación y la comunicación entre los diferentes participantes de la cadena de suministro.
+
+## Instrucciones
+
+Pon a prueba tus habilidades para gestionar una cadena de suministro con nuestro juego en línea. ¿Puedes completar el proceso de pedido sin acabar con demasiado stock? ¡Tus ganancias y tu reputación están en juego!
+
+Gestionarás la cadena de suministro de uno de los artículos más populares de Gran Bretaña: latas de frijoles horneados.
+
+## ¿Cómo es una cadena de suministro?
+
+A continuación se muestra una imagen que muestra las diferentes etapas de una cadena de suministro.
+
+![][1]
+
+  [1]: imagenes/supply-chain.png
+
+## ¿Puedes mantener contento a tu cliente?
+
+No necesita preocuparse por las entregas a sus clientes; esto se hace automáticamente, pero deberá asegurarse de no recibir ninguna multa. Cada pedido debe completarse. Las penalizaciones por pedidos pendientes le costarán £1,00 por unidad.
+
+Su tarea principal es minimizar costos y maximizar el nivel de servicio al cliente. Suena sencillo, pero si empiezas a tener dificultades, ¡imagínate lo que es trabajar para uno de los principales supermercados y cuidar de 90.000 artículos diferentes!
+
+## El tablero
+
+En el panel del juego verás la información clave para gestionar la cadena de suministro.
+
+![][2]
+
+  [2]: imagenes/performance-bar.jpg
+
+El tiempo que estás jugando. Su desempeño individual (con el costo total del rol que desempeña), más un indicador de qué tan bien lo está haciendo. La sección roja significa que estás por debajo del promedio. La sección amarilla significa que eres promedio. La sección verde significa que estás por encima del promedio.
+
+## Cómo funciona el juego 
+
+En esta cadena de suministro observará dos flujos:
+
+-   el flujo de bienes o materiales (frijoles horneados): fluye de izquierda a derecha
+
+-   la información fluye (órdenes), fluyendo de derecha a izquierda.
+
+![][3]
+
+  [3]: imagenes/graphic-view.jpg
+
+::: {style="text-align: center; margin-top: 1em"}
+[Enlace al juego:](https://www2.open.ac.uk/openlearn/supply-chain/index.html){preview-link="true" style="text-align: center"}
+:::

@@ -1,0 +1,110 @@
+/* Estilo para el título */
+.title-slide .title {
+  font-size: 20; /* Ajusta el tamaño según sea necesario */
+  text-align: center; /* Centra el título */
+  margin-bottom: 0;
+}
+
+/* Estilo para el autor */
+.title-slide .author {
+  font-size: 1rem; /* Ajusta el tamaño según sea necesario */
+  text-align: center; /* Centra el autor */
+  margin-top: 0;
+}
+
+/* Clase personalizada para reducir el tamaño del título */
+.small-title {
+  font-size: 10px; /* Ajusta el tamaño según sea necesario */
+}
+
+/* El CSS existente que has proporcionado */
+#title-slide .author {
+  font-size: 10px!important;
+}
+#title-slide .title {
+  margin-bottom: 0;
+}
+
+#title-slide .title:before {
+  content: url('imagenes/70años-fondososcuros.png');
+  display: block;
+  transform: scale(0.5);
+  margin-bottom: -20%;
+  margin-left: -15%;
+}
+
+.box {
+  margin-top: 5px;
+  margin-right: 10px;
+  border: 5px solid #006DAE;
+  padding: 10px;
+  font-size: 10px;
+  background-color: #5343ba;
+}
+
+.font-small {
+  font-size: 1.0rem;
+}
+
+.info-box {
+  margin-top: 10px;
+  margin-right: 10px;
+  border-left: 10px solid #006DAE;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e8f4f8;
+}
+
+.fa-ul {
+    list-style-type: none!important;
+    margin-left: var(--fa-li-margin, 2.5em)!important;
+    padding-left: 0!important;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 1em;
+    line-height: 1em;
+    padding: 3px;
+    display: inline-block;
+    background: #f6ac2b;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.story {
+  background-color: black;
+  color: white;
+  font-size: 0.3em;
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  vertical-align: middle;
+}  
+* {
+  font-size: 26px;
+}
+.typewriter h3 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}

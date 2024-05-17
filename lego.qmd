@@ -1,0 +1,157 @@
+---
+title: "Explora UTadeo"  
+css: 'custom.css'
+subtitle: "Lego"
+footer: "Lego"
+code-annotations: hover
+format: 
+  revealjs:
+    scrollable: true
+    theme: custom.scss
+    transition: slide
+    chalkboard: true
+    preview-links: auto
+    background-transition: fade
+    menu:
+      side: left
+      width: third
+
+execute:
+  echo: false
+jupyter: python3
+---
+## Introducción
+
+Vamos a aprender cómo maximizar los ingresos utilizando programación lineal con un ejemplo divertido: vendiendo mesas y sillas de Lego.
+
+---
+
+## ¿Qué es la Programación Lineal?
+
+- Un método matemático para optimizar una función objetivo.
+- Utilizado en diversas áreas: finanzas, logística, fabricación, etc.
+
+---
+
+## Herramientas que Utilizaremos
+
+- Python: un lenguaje de programación versátil.
+- Pyomo: una biblioteca de Python para modelado de optimización.
+
+---
+
+## Nuestro Ejemplo: Lego My Simplex
+
+- Vamos a vender mesas y sillas hechas de Lego.
+- Nuestro objetivo: Maximizar los ingresos.
+
+---
+
+## Piezas de Lego Disponibles
+
+- Piezas pequeñas: 8 disponibles.
+- Piezas grandes: 6 disponibles.
+
+![][1]
+
+  [1]: imagenes/recursos.png
+
+---
+
+## Construyendo Mesas y Sillas
+
+- Una mesa requiere:
+  - 2 piezas grandes
+  - 2 piezas pequeñas
+- Una silla requiere:
+  - 1 pieza grande
+  - 2 piezas pequeñas
+
+![][2]
+
+  [2]: imagenes/mesas
+---
+
+## Precio de Venta
+
+- Mesa: $16
+- Silla: $10
+
+---
+
+## Formulación Matemática
+
+Maximizar 
+$$Z = 16X + 10Y$$
+
+Sujeto a:
+
+$$2X + 2Y \leq 8 $$
+$$2X + Y \leq 6 $$
+$$X, Y \geq 0$$
+
+
+Donde:
+
+\( X \) = número de mesas  
+\( Y \) = número de sillas
+
+---
+
+## ¿Cómo Resolvemos Esto?
+
+- Utilizaremos Pyomo para definir y resolver el modelo.
+- El código se ejecutará en Python.
+
+::: {style="text-align: center; margin-top: 1em"}
+[Enlace al problema](https://colab.research.google.com/drive/1d9QTMOYf1u6HZt88oovklgRSPstVGu6a?usp=sharing){preview-link="true" style="text-align: center"}
+:::
+
+---
+
+## Instalación de Pyomo
+
+Puedes instalar Pyomo utilizando pip:
+
+```
+pip install pyomo
+```
+
+---
+
+## ¿Qué es NEOS?
+
+- Servicio de optimización en línea.
+- Proporciona acceso a varios solucionadores.
+
+---
+
+## Configuración de NEOS
+
+Necesitas una dirección de correo electrónico para usar NEOS:
+
+```python
+os.environ['NEOS_EMAIL'] = 'tu_correo@ejemplo.com'
+```
+
+---
+
+## Ejecución y Resultados
+
+Una vez que el modelo está resuelto, podemos ver los resultados:
+
+- Número óptimo de mesas y sillas para maximizar los ingresos.
+- Ingresos máximos posibles.
+
+---
+
+## Conclusión
+
+- La programación lineal es una herramienta poderosa para la toma de decisiones.
+- Pyomo facilita la implementación de estos modelos.
+
+---
+
+## ¡Gracias!
+
+¿Preguntas?

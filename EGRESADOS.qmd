@@ -1,0 +1,192 @@
+---
+title: "Capacidades de la IA Generativa"
+author: "Tu Nombre"
+format: revealjs
+---
+
+# Bienvenido a las Capacidades de la IA Generativa
+
+[MÚSICA] Bienvenido a las capacidades de la IA generativa. Tras ver este vídeo, podrás describir algunas de las capacidades de la IA generativa y explorar su uso en el mundo real. Comencemos con una descripción general de alto nivel de algunas de las capacidades de la IA generativa que analizaremos.
+
+---
+
+# Capacidades de la IA Generativa
+
+- Generación de Texto
+- Generación de Imágenes
+- Generación de Audio
+- Generación de Vídeo
+- Generación de Código
+- Generación y Aumento de Datos
+- Creación de Mundos Virtuales
+
+---
+
+# Generación de Texto
+
+<div style="text-align: center;">
+```{mermaid}
+graph TD
+    A[Modelos de Lenguaje Grande (LLM)] --> B[Generación de Texto]
+    B --> C[Textos Claros y Relevantes]
+    B --> D[Conversaciones Coherentes]
+    B --> E[Resúmenes y Traducciones]
+    B --> F[Generación de Código]
+```
+</div>
+
+En el centro de la capacidad de generación de texto de la IA generativa se encuentran los modelos de lenguaje grande (LLM) avanzados impulsados por la IA. Los LLM se capacitan en grandes conjuntos de datos y pueden generar texto similar al humano en varios contextos. 
+
+---
+
+# Ejemplos de LLM
+
+- GPT de OpenAI
+- PaLM de Google
+
+---
+
+# Generación de Imágenes
+
+<div style="text-align: center;">
+```{mermaid}
+graph TD
+    A[Modelos Generativos] --> B[Generación de Imágenes]
+    B --> C[Imágenes Realistas]
+    B --> D[Imágenes Artísticas]
+    B --> E[Visualización Científica]
+    B --> F[Imágenes Médicas]
+```
+</div>
+
+Los modelos generativos pueden generar imágenes convincentes y de alta calidad basadas en técnicas de aprendizaje profundo, como redes generativas de confrontación (GAN) y codificadores automáticos variacionales (VAE).
+
+---
+
+# Ejemplos de Modelos de Imagen
+
+- StyleGAN
+- DeepArt
+- DALL-E
+
+---
+
+# Generación de Audio
+
+<div style="text-align: center;">
+```{mermaid}
+graph TD
+    A[Modelos Generativos] --> B[Generación de Audio]
+    B --> C[Composiciones Musicales]
+    B --> D[Texto a Voz (TTS)]
+    B --> E[Voces Sintéticas]
+    B --> F[Mejora de Calidad de Audio]
+```
+</div>
+
+Los modelos generativos pueden generar nuevas composiciones musicales, convertir texto en audio mediante TTS y crear voces sintéticas y discurso con un sonido natural.
+
+---
+
+# Ejemplos de Modelos de Audio
+
+- WaveGAN
+- MuseNet
+- Tacotron 2
+
+---
+
+# Generación de Vídeo
+
+<div style="text-align: center;">
+```{mermaid}
+graph TD
+    A[Modelos Generativos] --> B[Generación de Vídeo]
+    B --> C[Animaciones Básicas]
+    B --> D[Escenas Complejas]
+    B --> E[Vídeos Dinámicos]
+    B --> F[Transiciones Plausibles]
+```
+</div>
+
+Los modelos de IA generativa pueden crear vídeos dinámicos y lúcidos que van desde animaciones básicas hasta escenas complejas.
+
+---
+
+# Ejemplos de Modelos de Vídeo
+
+- VideoGPT
+
+---
+
+# Generación de Código
+
+<div style="text-align: center;">
+```{mermaid}
+graph TD
+    A[Modelos Generativos] --> B[Generación de Código]
+    B --> C[Fragmentos de Código]
+    B --> D[Funciones Completas]
+    B --> E[Síntesis de Código]
+    B --> F[Identificación de Errores]
+```
+</div>
+
+Los modelos generativos pueden generar nuevos fragmentos de código, funciones o programas completos en función de la funcionalidad deseada.
+
+---
+
+# Ejemplos de Modelos de Código
+
+- GitHub Copilot
+- Watson Code Assistant
+
+---
+
+# Generación y Aumento de Datos
+
+<div style="text-align: center;">
+```{mermaid}
+graph TD
+    A[Modelos Generativos] --> B[Generación de Datos]
+    B --> C[Datos Sintéticos]
+    B --> D[Aumento de Conjuntos de Datos]
+    B --> E[Mayor Diversidad]
+    B --> F[Mejor Rendimiento]
+```
+</div>
+
+Los modelos generativos pueden generar nuevos datos y aumentar los conjuntos de datos existentes, ayudando a crear conjuntos de datos más diversos y efectivos.
+
+---
+
+# Creación de Mundos Virtuales
+
+<div style="text-align: center;">
+```{mermaid}
+graph TD
+    A[Modelos Generativos] --> B[Creación de Mundos Virtuales]
+    B --> C[Avatares Realistas]
+    B --> D[Entornos Complejos]
+    B --> E[Texturas Realistas]
+    B --> F[Experiencias Personalizadas]
+```
+</div>
+
+Los modelos de IA generativa pueden crear mundos virtuales complejos y altamente realistas, incluidos avatares virtuales y personalidades digitales.
+
+---
+
+# Resumen
+
+En este vídeo, aprendiste sobre algunas de las capacidades de los modelos de IA generativa y su uso en el mundo real. La IA generativa puede crear contenido coherente y relevante desde el punto de vista del contexto y generar imágenes realistas y de alta calidad, voces sintéticas, nuevos audios y vídeos dinámicos.
+
+---
+
+# ¡Gracias por tu Atención!
+
+Generative AI es para todos.
+¡Comienza tu viaje en IA generativa hoy!
+```
+
+Este código crea una presentación en Quarto con secciones separadas para cada capacidad de la IA generativa, utilizando diagramas de Mermaid centrados para ilustrar las relaciones y capacidades de los modelos generativos en cada contexto.

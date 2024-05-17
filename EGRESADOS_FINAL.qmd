@@ -1,0 +1,247 @@
+---
+title: "SEMANA C&I"
+css: 'custom.css'
+subtitle: 'Desbloquea el Poder de la IA: Introducción a la Ingeniería de Prompts'
+author: 'Jorge Ivan Romero'
+logo: 'imagenes/70años-fondososcuros.png'
+footer: ''
+
+
+
+code-annotations: hover
+format: 
+  revealjs:
+    scrollable: true
+    theme: custom.scss
+    transition: slide
+    chalkboard: true
+    preview-links: auto
+    background-transition: slide 
+    menu:
+      side: left
+      width: third
+
+execute:
+  echo: false
+jupyter: python3
+---
+
+# Introducción a la IA generativa
+
+## ¿Qué es la Inteligencia Artificial?
+
+Se define como la simulación de la inteligencia humana por máquinas.
+
+![](imagenes/ia1.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+# Proceso de Aprendizaje de la IA
+
+-   Los modelos de IA aprenden de grandes cantidades de datos existentes.
+-   Este proceso se llama entrenamiento.
+
+------------------------------------------------------------------------
+
+# Principales Tecnologías en IA
+
+## Machine Learning (ML)
+
+Permite a las máquinas aprender a partir de datos y mejorar con la experiencia.
+
+-   Ejemplo: Filtros de spam en correos. ![Machine Learning](https://miro.medium.com/v2/resize:fit:920/1*CS-OYdiRLCBMBiOpEURy0g.png)
+
+------------------------------------------------------------------------
+
+## Deep Learning (DL)
+
+Utiliza redes neuronales para modelar patrones complejos en grandes cantidades de datos.
+
+-   Ejemplo: Reconocimiento de imágenes.
+
+-   
+
+    ![Deep Learning](https://d22k5h68hofcrd.cloudfront.net/magefan_blog/hero-reconocimiento_facial.jpg)
+
+------------------------------------------------------------------------
+
+## Procesamiento del Lenguaje Natural (NLP)
+
+Permite a las máquinas entender y responder a lenguajes humanos. - Ejemplo: Chatbots. ![Procesamiento del Lenguaje Natural](https://s8.easternpeak.com/wp-content/uploads/2021/08/How-Chatbots-Work.png)
+
+------------------------------------------------------------------------
+
+# Enfoques Fundamentales de la IA
+
+::: {style="text-align: center;"}
+```{mermaid}
+flowchart LR
+    A[IA] --> B[IA Discriminativa]
+    A[IA] --> C[IA Generativa]
+```
+:::
+
+# 
+
+# IA Discriminativa
+
+-   Aprende a distinguir entre diferentes clases de datos.
+-   Recibe un conjunto de datos de entrenamiento etiquetados.
+-   Predice la clase de nuevos datos al encontrar el lado del límite de decisión en el que se encuentra el punto de datos.
+
+------------------------------------------------------------------------
+
+# Ejemplo de IA Discriminativa
+
+::: {style="text-align: center;"}
+```{mermaid}
+flowchart TD
+    A[Datos de Entrenamiento Etiquetados]
+    B[Algoritmo de IA Discriminativa]
+    C[Clasificación: Spam / No Spam]
+    A --> B
+    B --> C
+```
+:::
+
+------------------------------------------------------------------------
+
+# Limitaciones de la IA Discriminativa
+
+-   No puede entender el contexto ni generar contenido nuevo basado en la comprensión contextual de los datos de entrenamiento.
+
+------------------------------------------------------------------------
+
+# IA Generativa
+
+-   Aprende a generar contenido nuevo basado en los datos de entrenamiento.
+-   Captura la distribución subyacente de los datos de entrenamiento y genera instancias de datos novedosas.
+
+------------------------------------------------------------------------
+
+# Funcionamiento de la IA Generativa
+
+::: {style="text-align: center;"}
+```{mermaid}
+flowchart LR
+    A[Prompt: Texto, Imagen, Video]
+    B[Modelo de IA Generativa]
+    C[Contenido Generado: Texto, Imagen, Audio, Video, Código, Datos]
+    A --> B
+    B --> C
+```
+:::
+
+------------------------------------------------------------------------
+
+# Ejemplo de IA Generativa
+
+-   Puede producir resultados en la misma forma del aviso (texto a texto) o en una forma diferente (texto a imagen o imagen a video).
+
+------------------------------------------------------------------------
+
+# Diferencias entre IA Discriminativa y Generativa
+
+-   DISCRIMINATIVA: Es esta imagen un dibujo de un nido o un huevo?
+-   IA Generativa: Dibuja una imagen de un nido con tres huevos.
+
+------------------------------------------------------------------------
+
+# Harvard Business Review sobre IA
+
+*"La IA no solo puede aumentar nuestras capacidades analíticas y de toma de decisiones, sino también nuestra creatividad."*
+
+------------------------------------------------------------------------
+
+# Evolución de la IA Generativa
+
+::: {style="text-align: center;"}
+```{mermaid}
+timeline
+    title Evolución de la IA Generativa
+    title Historia de la IA Generativa
+    1950 : Exploración inicial de IA generativa
+    1964 : Creación del chatbot ELIZA
+    1980 : Avances en redes neuronales
+    2000 : Llegada del aprendizaje profundo
+    2014 : Introducción de las GANs
+    2015 : Desarrollo de modelos de difusión
+    2020 : Lanzamiento de GPT-3
+    2023 : Presentación de Bard y watsonx
+2024: ChatGPT4p
+
+```
+:::
+
+------------------------------------------------------------------------
+
+# Modelos de Lenguaje Extensos (LLMs)
+
+-   Capacitados para comprender el lenguaje humano y procesar y generar texto.
+
+------------------------------------------------------------------------
+
+# Ejemplos de LLMs
+
+-   **GPT** (Generative Pre-trained Transformer) de OpenAI
+-   **GPT-3, GPT-4, Gemini , Meta AI (Llama), Claude, Mistral**
+
+------------------------------------------------------------------------
+
+# Modelos Generativos para Otras Aplicaciones
+
+-   Generación de Imágenes: **Stable Diffusion, DALL-E, Midjourney**
+-   Generación de Video: **Synthesia**
+-   Generación de Código: **Copilot, AlphaCode**
+
+------------------------------------------------------------------------
+
+# Potencial Económico
+
+*Según un informe de McKenzie, la IA generativa tiene el potencial de cambiar la anatomía del trabajo. Puede aumentar la productividad y añadir billones de dólares en valor a la economía mundial.*
+
+------------------------------------------------------------------------
+
+# ¿Qué es la Ingeniería de Prompts?
+
+-   es el proceso de diseñar y formular entradas específicas y precisas (prompts) para modelos de inteligencia artificial generativa como ChatGPT-4 y MidJourney, con el objetivo de obtener respuestas o resultados deseados.
+
+Objetivo: Maximizar la efectividad y la relevancia de las respuestas generadas por la IA.
+
+------------------------------------------------------------------------
+
+# Estructura de un Prompt
+
+Para estructurar un prompt de manera efectiva, considera los siguientes elementos:
+
+1.  **Contexto**: Proporciona información contextual relevante para orientar la respuesta de la IA.
+    -   Ejemplo: "En un mundo post-apocalíptico..."
+2.  **Instrucción**: Define claramente lo que deseas que haga la IA.
+    -   Ejemplo: "Escribe una historia sobre un héroe solitario..."
+
+---
+  
+# Estructura de un Prompt
+
+continua:
+1.  **Detalles Específicos**: Añade detalles para guiar la respuesta hacia el resultado deseado.
+    -   Ejemplo: "El héroe debe encontrar un artefacto mágico en una ciudad abandonada."
+2.  **Formato**: Indica el formato en que deseas recibir la respuesta.
+    -   Ejemplo: "Escribe en formato de cuento corto con un final abierto."
+
+------------------------------------------------------------------------
+
+### Ejemplo de Prompt Estructurado para ChatGPT-4:
+
+"En un mundo post-apocalíptico, escribe una historia sobre un héroe solitario que debe encontrar un artefacto mágico en una ciudad abandonada. La historia debe estar en formato de cuento corto con un final abierto."
+
+---
+## Eliza {background-iframe="https://web.njit.edu/~ronkowit/eliza.html"}
+## Chatgpt {background-iframe="https://chatgpt.com/"}
+## Midjourney {background-iframe="https://discord.com/channels/1133407137918357705/1133407137918357708}
+---
+
+# ¡Gracias por tu Atención!
+
+-   Generative AI es para todos.
+-   ¡Comienza tu viaje en IA generativa hoy!
