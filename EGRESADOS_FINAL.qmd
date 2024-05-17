@@ -17,6 +17,7 @@ format:
     chalkboard: true
     preview-links: auto
     background-transition: slide 
+     background-interactive: true
     menu:
       side: left
       width: third
@@ -237,7 +238,9 @@ continua:
 
 ---
 ## Eliza {background-iframe="https://web.njit.edu/~ronkowit/eliza.html"}
+---
 ## Chatgpt {background-iframe="https://chatgpt.com/"}
+---
 ## Midjourney {background-iframe="https://discord.com/channels/1133407137918357705/1133407137918357708}
 ---
 
